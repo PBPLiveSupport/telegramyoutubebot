@@ -14,9 +14,9 @@ from aiogram.types import ChatJoinRequest
 from aiogram import Bot, Dispatcher, F
 import logging
 
-TOKEN = "...токен бота от @BotFather..."
-CHANNEL_ID = # ...ID канала от @getmyid_bot..., число, не текст
-ADMIN_ID = # ...ID канала от @getmyid_bot..., число, не текст
+TOKEN = "7134276538:AAEKU3KGwnZARIrnAB5gNSG189FUFo_YBKQ"
+CHANNEL_ID = 6220612205
+ADMIN_ID = 1002084371282
 
 async def approve_request(chat_join: ChatJoinRequest, bot: Bot): 
     msg = "Добро пожаловать!"
